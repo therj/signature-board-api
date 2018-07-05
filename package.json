@@ -1,0 +1,30 @@
+{
+  "name": "signature-board-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therj/signature-board-api.git"
+  },
+  "author": "Rabindra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therj/signature-board-api/issues"
+  },
+  "homepage": "https://github.com/therj/signature-board-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
